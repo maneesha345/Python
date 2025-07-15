@@ -1,3 +1,4 @@
+# job_data_analysis
 import pandas as pd
 
 class Job_Data_Analysis:
@@ -27,10 +28,6 @@ class Job_Data_Analysis:
         return benefit
 
 analyzer = Job_Data_Analysis("ai_job_dataset.csv.xlsx")
-<<<<<<< HEAD
-=======
-
->>>>>>> c9bab93a8a2c773795fecbd224e9f23bc953f0e4
 print("Company Locations:")
 print(analyzer.get_company_locations())
 

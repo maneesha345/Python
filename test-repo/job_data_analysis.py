@@ -27,6 +27,7 @@ class Job_Data_Analysis:
         return benefit
 
 analyzer = Job_Data_Analysis("ai_job_dataset.csv.xlsx")
+
 print("Company Locations:")
 print(analyzer.get_company_locations())
 
